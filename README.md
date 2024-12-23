@@ -15,8 +15,8 @@ A robust FastAPI-based service for handling Stripe payments with proper error ha
 ## Prerequisites
 
 - Python 3.8+
-- pip
-- Stripe account
+- [pip](https://pypi.org/project/pip/)
+- [Stripe account](https://dashboard.stripe.com/register)
 - Virtual environment (recommended)
 
 ## Installation
