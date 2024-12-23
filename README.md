@@ -128,7 +128,7 @@ The service validates minimum amounts for different currencies:
 brew install stripe/stripe-cli/stripe
 
 # Windows
-scoop install stripe
+# https://docs.stripe.com/stripe-cli
 ```
 
 2. Login to Stripe:
@@ -196,39 +196,6 @@ async function createPayment() {
     });
 }
 ```
-
-## Testing
-
-Run tests:
-```bash
-pytest
-```
-
-## Deployment
-
-1. Set environment variables
-2. Configure CORS settings
-3. Set up SSL/TLS
-4. Configure webhook endpoints
-5. Set up monitoring
-6. Implement logging
-
-## Security Considerations
-
-- Use HTTPS in production
-- Keep Stripe SDK updated
-- Implement rate limiting
-- Validate webhook signatures
-- Handle errors gracefully
-- Use environment variables for sensitive data
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Push to the branch
-5. Create a Pull Request
 
 ## License
 
